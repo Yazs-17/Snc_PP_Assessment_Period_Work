@@ -47,7 +47,7 @@ let chenc=function(){
             let trs=document.createElement("tr");
             let tds1=document.createElement("td");
             let tds2=document.createElement("td");
-            if(i==0) {FiIR();}
+            if(i==0) {FiIR();}//表头
             tds1.innerText=All[4][i];
             trs.appendChild(tds1);
             tds2.innerText=All[5][i];
@@ -58,16 +58,3 @@ let chenc=function(){
     }
 }
 document.body.appendChild(tab);
-
-
-
-
-//导出部分   未开发
-let daochu=function(){
-    if(sum==0)
-    {
-        alert("请输入奖池");
-        return 0;
-    }
-    let All=load()[v];
-}
