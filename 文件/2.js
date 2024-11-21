@@ -63,3 +63,9 @@ let kaichou=function(){
 let load = function(){
     return JSON.parse(localStorage.The_All);
 }
+let open1=function(){
+    window.open('创建抽奖.html');
+}
+let open2=function(){
+    window.open('抽奖结果.html');
+}
