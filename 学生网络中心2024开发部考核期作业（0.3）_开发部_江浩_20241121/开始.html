@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./2.css">
+    <title>开始</title>
+</head>
+<body>
+    <button class="button" onclick="open1()">创建奖池</button>
+    <br>
+    <button  class="button" onclick="open2()">抽奖情况</button>
+    <br>
+    <!-- 用与控制窗口 -->
+    <input type="checkbox" id="display">                  
+    <label for="display" class="button">参与抽奖</label>
+    <div class="container">
+        <!-- 那个x -->
+        <label type="checkbox" for="display" id="ca">&times;</label>
+
+        <h1>抽奖信息</h1>
+        <label for="daihao" class="b1">卡池: </label><br>
+        <input type="text" id="daihao" placeholder="请输入卡池名称" class="c1"><br>
+        <label for="name" class="b1">名字: </label><br>
+        <input type="text" id="name" placeholder="请输入你的名称" class="c1"><br>
+        <button class="small_button" onclick="kaichou()">开抽</button>       
+    </div>
+
+    <script src="2.js"></script>
+</body>
+</html>

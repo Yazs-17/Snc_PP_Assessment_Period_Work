@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>调试页面</title>
+</head>
+<body>
+    <button onclick="qinchu()">清除历史</button>
+    <button onclick="chakan()">查看历史</button>
+    <script>
+        let qinchu=function(){
+            localStorage.removeItem("The_All");
+            console.log("删除成功");
+        }
+        let chakan=function(){
+            console.log(JSON.parse(localStorage.The_All));
+        }
+    </script>
+</body>
+</html>
