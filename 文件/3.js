@@ -25,7 +25,7 @@ let chenc=function(){
         alert("无奖池");
     }else{
         let real_All=load();
-        let v=-1;
+        var v=-1;
         for(let i=0;i<real_All.length;i++)
         {
             if(Daihao.value==real_All[i][1])
@@ -58,3 +58,16 @@ let chenc=function(){
     }
 }
 document.body.appendChild(tab);
+
+
+
+
+//导出部分   未开发
+let daochu=function(){
+    if(sum==0)
+    {
+        alert("请输入奖池");
+        return 0;
+    }
+    let All=load()[v];
+}
