@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>抽奖</title>
+  </head>
+  <body
+    background="p.png"
+    style="
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    "
+  >
+    <div style="margin-bottom: 100; color: red">
+      <p><span id="result">中奖结果在这里显示</span></p>
+    </div>
+    <div>
+      <h1>>>>....抽奖....<<<</h1>
+    </div>
+    <div style="margin-bottom: 20px">
+      <label for="member">请输入参与人数和中奖人数</label>
+    </div>
+    <input type="number" id="member" placeholder="参与人数" />
+    <div for="winner">
+      <input type="number" id="winner" placeholder="中奖人数" />
+    </div>
+    <div style="margin: 10px"></div>
+    <button style="width: 50ox" id="start">开始抽奖</button>
+
+    <script src="choujiang.js"></script>
+  </body>
+</html>
